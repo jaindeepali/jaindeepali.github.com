@@ -1,5 +1,5 @@
 title:            Deepali Jain
-tagline:          Discovering the universe.
+tagline:          Attempting to make sense of the universe.
 description:      My Blog.
 #Comment out url when working locally to resolve base urls correctly
 #url: jaindeepali.github.io
@@ -32,6 +32,8 @@ links:
   - title: Resume
     url: /assets/resume/Deepali-Jain-Resume.pdf
     external: true
+  - title: RSS
+    url: /feed.xml
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    Asia/Calcutta
@@ -52,6 +54,9 @@ kramdown:
     coderay_tab_width: 4
     coderay_bold_every: 10
     coderay_css: class
+
+gems:
+  - jekyll-feed
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink:   /:categories/:title
