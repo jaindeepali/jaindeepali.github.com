@@ -35,6 +35,20 @@
 
   <!-- Custom JS -->
   <script src="{{ site.url }}/assets/js/scripts.js"></script>
+  {% if page.category == 'articles' %}
+    <!-- <script src="{{ site.url }}/assets/js/reading-time.js"></script> -->
+    <script>
+      var wordsPerMinute = 180;
+      var numberOfWords = {{ content | number_of_words }};
+      var timeInMinutes = numberOfWords / wordsPerMinute;
+      timeInMinutes = Math.ceil(timeInMinutes);
+
+      if(timeInMinutes == 1)
+          document.getElementsByClassName('read-time')[0].innerHTML = '1 min. read';
+      else
+          document.getElementsByClassName('read-time')[0].innerHTML = timeInMinutes + ' min. read';
+    </script>
+  {% endif %}
 
 
   </body>

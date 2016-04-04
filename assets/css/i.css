@@ -727,14 +727,19 @@ header.site-header nav ul li a:hover {
   width: 100%;
   margin-top: 0;
 }
-.article header hgroup .date {
+.article header hgroup .date, .read-time {
   font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", "Arial", sans-serif;
   font-size: 16px;
   font-weight: bold;
   color: #d9d9d9;
   text-transform: uppercase;
-  margin-top: 22px;
+  margin-top: 20px;
+  margin-bottom: 0px;
 }
+.read-time {
+  margin: 0px;
+}
+
 .article header .intro {
   text-align: left;
 }
