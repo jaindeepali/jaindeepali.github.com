@@ -9,7 +9,7 @@ canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section,
 summary, time, mark, audio, video {
   border: 0;
   font: inherit;
-  margin: 0;
+  margin-bottom: 33px;
   outline: 0;
   padding: 0;
   vertical-align: baseline;
@@ -170,7 +170,7 @@ h6, .h6 {
 }
 
 blockquote, blockquote p {
-  font-size: 48px;
+  /* font-size: 48px; */
 }
 
 .archive input {
@@ -296,16 +296,23 @@ blockquote, blockquote p {
   font-style: italic;
   line-height: 1.3em;
   text-align: center;
-  color: #3c3c3c;
+  color: #818181;
   margin-bottom: 33px;
+  border-left: 4px solid #bbbbbb;
 }
 
 /*   Code Formatting    */
 code {
   color: #24536b;
   font-family: "Monaco", "Courier New", "Courier";
-  font-size: .75em;
-  font-weight: bold;
+  font-size: .85em;
+  /* font-weight: bold; */
+  padding: 0.5em 0.5em;
+  background-color: #f9f9f9;
+  line-height: 1.5em;
+  overflow: scroll;
+  display: block;
+  overflow-y: hidden;
 }
 
 .highlight {
