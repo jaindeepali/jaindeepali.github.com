@@ -10,7 +10,7 @@ owner:
   avatar:         avatar.png
   bio:            "Developer"
   email:          djdeepalijain811@gmail.com
-  twitter:        Deepali01140419        
+  # twitter:        Deepali01140419        
   github:         jaindeepali       
   disqus:         jaindeepali
   location:       "Roorkee, India"
@@ -30,7 +30,7 @@ links:
     url: https://github.com/jaindeepali
     external: true
   - title: Resume
-    url: assets/resume/Deepali-Jain-Resume.pdf
+    url: /assets/resume/Deepali-Jain-Resume.pdf
     external: true
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
