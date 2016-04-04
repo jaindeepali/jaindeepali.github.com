@@ -25,22 +25,26 @@ tools:
 links:
   - title: About
     url: http://about.me/deepali
+    external: true
   - title: Github
     url: https://github.com/jaindeepali
+    external: true
+  - title: Resume
+    url: assets/resume/Deepali-Jain-Resume.pdf
     external: true
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    Asia/Calcutta
 future:      true
-pygments:    true
 markdown:    kramdown
+highlighter: pygments
 
 kramdown:
   auto_ids: true
   footnote_nr: 1
   entity_output: as_char
   toc_levels: 1..6
-  use_coderay: false
+  enable_coderay: false
 
   coderay:
     coderay_line_numbers: 
