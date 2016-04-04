@@ -9,7 +9,7 @@ canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section,
 summary, time, mark, audio, video {
   border: 0;
   font: inherit;
-  margin-bottom: 33px;
+  margin-left: 0px;
   outline: 0;
   padding: 0;
   vertical-align: baseline;
@@ -1001,10 +1001,13 @@ footer small {
   bottom: 8px;
   font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", "Arial", sans-serif;
   text-transform: uppercase;
-  color: rgba(249, 249, 249, 0.1);
+  color: rgba(249, 249, 249, 0.3);
 }
 footer small a {
-  color: rgba(249, 249, 249, 0.3);
+  color: rgba(249, 249, 249, 0.6);
+}
+footer small a:hover {
+  color: rgba(249, 249, 249, 1);
 }
 footer .list-title {
   margin-bottom: 16.5px;
