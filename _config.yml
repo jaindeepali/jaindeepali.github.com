@@ -10,7 +10,7 @@ owner:
   avatar:         avatar.png
   bio:            "Developer"
   email:          djdeepalijain811@gmail.com
-  # twitter:        Deepali01140419        
+  twitter:        Deepali01140419        
   github:         jaindeepali       
   disqus:         jaindeepali
   location:       "Roorkee, India"
@@ -28,6 +28,12 @@ links:
     external: true
   - title: Github
     url: https://github.com/jaindeepali
+    external: true
+  - title: Twitter
+    url: https://twitter.com/Deepali01140419
+    external: true
+  - title: Mail
+    url: mailto:djdeepalijain811@gmail.com
     external: true
   - title: Resume
     url: /assets/resume/Deepali-Jain-Resume.pdf
