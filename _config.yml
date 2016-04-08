@@ -45,7 +45,7 @@ links:
 timezone:    Asia/Calcutta
 future:      true
 markdown:    kramdown
-highlighter: pygments
+highlighter: rouge
 
 kramdown:
   auto_ids: true
