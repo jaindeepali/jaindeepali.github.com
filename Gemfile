@@ -7,6 +7,6 @@ gem 'github-pages', versions['github-pages']
 # gem 'jekyll'
 # gem 'pygments.rb'
 gem 'jekyll-minibundle'
-gem 'coderay'
+# gem 'coderay'
 gem 'rake'
 gem 'jekyll-feed'

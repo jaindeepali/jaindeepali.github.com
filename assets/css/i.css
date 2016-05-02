@@ -308,7 +308,7 @@ code {
   font-size: .85em;
   /* font-weight: bold; */
   padding: 0.5em 0.5em;
-  /*background-color: #f9f9f9;*/
+  background-color: #f9f9f9;
   line-height: 1.5em;
   overflow: scroll;
   /*display: block;*/
@@ -316,7 +316,7 @@ code {
 }
 
 .highlight {
-  background: #3b3b3b;
+  background: #222;
   padding: 12px;
   border-radius: 4px;
   margin-bottom: 33px;
@@ -328,9 +328,17 @@ code {
   font-size: .9em;
 }
 .highlight code .lineno {
+
+  -webkit-user-select: none; /* Chrome/Safari */        
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+ */
+  -o-user-select: none;
+  user-select: none;
+
   margin-right: 16.5px;
   color: #d9d9d9;
-  line-height: 2em;
+  opacity: 0.6;
+  /* line-height: 2em; */
 }
 /*.highlight code .nt {
   color: #c85b5c;
@@ -342,10 +350,7 @@ code {
   color: #87ceeb;
 }
 */
-.highlight code, .highlight pre {
-color:#fdce93;
-/*background-color:#3f3f3f;*/
-}
+.highlight code, .highlight pre {color:#fdce93;background-color: rgba(63, 63, 63, 0);}
 
 .highlight .hll {
 background-color:#222;
@@ -555,7 +560,7 @@ input {
   float: left;
   width: 77%;
   margin: 0 1.5%;
-  max-width: 680px;
+  max-width: 880px;
   display: block;
   margin: 0 auto;
   float: none;
@@ -879,7 +884,8 @@ header.site-header nav ul li a:hover {
   line-height: 1.25em;
 }
 .post figure {
-  margin: 33px 0;
+  margin: auto;
+  max-width: 660px;
 }
 .post figure img {
   margin-bottom: 16.5px;
