@@ -1272,3 +1272,12 @@ footer .social ul li:last-child {
     font-size: 12px;
   }
 }
+
+.avatar {
+  display: inline;
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  vertical-align: middle;
+  margin-right: 20px;
+}
