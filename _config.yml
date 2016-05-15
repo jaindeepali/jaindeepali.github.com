@@ -13,6 +13,8 @@ owner:
   twitter:        Deepali01140419        
   github:         jaindeepali       
   disqus:         jaindeepali
+  facebook:       deepalijain8
+  google-plus:    +DeepaliJain811
   location:       "Roorkee, India"
   # Plug in your disqus shortname!
 
@@ -26,17 +28,14 @@ links:
   - title: About
     url: http://about.me/deepali
     external: true
-  - title: Github
+  - title: Projects
     url: https://github.com/jaindeepali
-    external: true
-  - title: Twitter
-    url: https://twitter.com/Deepali01140419
-    external: true
-  - title: Mail
-    url: mailto:jaindeepali811@gmail.com
     external: true
   - title: Resume
     url: /assets/resume/Deepali-Jain-Resume.pdf
+    external: true
+  - title: Contact
+    url: mailto:jaindeepali811@gmail.com
     external: true
   - title: RSS
     url: /feed.xml
