@@ -792,7 +792,7 @@ header.site-header nav ul li a:hover {
   display: block;
   float: none;
   font-size: 32px;
-  margin-bottom: 66px;
+  /* margin-bottom: 66px; */
   position: relative;
 }
 .archive-wrap .post-list li a {
@@ -838,8 +838,9 @@ header.site-header nav ul li a:hover {
   transition: all 1s ease-in-out;
 }
 .archive-wrap .post-list li h1 {
-  font-size: 32px;
+  font-size: 30px;
   font-style: italic;
+  margin: 0px;
 }
 .archive-wrap .post-list .summary {
   font-size: 18px;
@@ -1030,9 +1031,9 @@ footer .list-title {
 footer .prev-posts {
   display: inline;
   float: left;
-  width: 57.0%;
+  width: 60%;
   margin: 0 1.5%;
-  max-width: 600px;
+  max-width: 800px;
   min-height: 250px;
   padding-left: 5vw;
 }
@@ -1058,7 +1059,7 @@ footer .prev-posts li {
 footer .prev-posts li .recent-title {
   display: inline;
   float: left;
-  width: 64.16667%;
+  width: 65.16667%;
   margin: 0 1.25%;
   font-style: italic;
 }
@@ -1070,7 +1071,7 @@ footer .prev-posts li span.date {
   color: rgba(217, 217, 217, 0.6);
   display: inline;
   float: left;
-  width: 30.83333%;
+  width: 28.83333%;
   margin: 0 1.25%;
   position: relative;
   font-size: 16px;
@@ -1080,13 +1081,13 @@ footer .prev-posts li span.date {
 }
 footer .social {
   position: absolute;
-  top: 109px;
+  bottom: 40px;
   display: inline;
   float: left;
-  width: 17.16667%;
+  width: 15.16667%;
   margin: 0 1.25%;
-  right: 5vw;
-  font-style: italic;
+  right: 0vw;
+  /* font-style: italic; */
 }
 footer .social a:hover {
   color: #f9f9f9;
@@ -1306,6 +1307,6 @@ footer .social ul li:last-child {
 }
 
 .foot-link span{
-  font-size: 32;
+  font-size: 26;
   margin: 10px;
 }

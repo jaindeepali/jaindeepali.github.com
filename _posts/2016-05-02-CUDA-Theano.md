@@ -4,6 +4,7 @@ title: "Running Theano on GPU with CUDA Toolkit"
 comments: false
 category: articles
 tags: [Machine Learning, Theano, GPU]
+description: ""
 ---
 
 Setting up CUDA toolkit and Nvidia drivers on my **HP Pavilion 15 Notebook** kept messing up with my display manager. After numerous X-Server breakdowns, here is how I got Theano to run on GPU safely. I setup **CUDA-7.5** on **Ubuntu 14.04**.
