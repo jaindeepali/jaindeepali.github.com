@@ -572,7 +572,7 @@ header.site-header {
   padding: 20px 0;
   position: absolute;
   width: 100%;
-  z-index: 5000;
+  z-index: 500;
 }
 header.site-header .wrap {
   max-width: 90vw;
@@ -856,7 +856,7 @@ header.site-header nav ul li a:hover {
   font-weight: bold;
   font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", "Arial", sans-serif;
   font-style: normal;
-  color: #d9d9d9;
+  color: #bbbbbb;
   text-transform: uppercase;
   vertical-align: middle;
 }
@@ -1281,12 +1281,13 @@ footer .social ul li:last-child {
   border-radius: 25px;
   vertical-align: middle;
   margin-right: 20px;
+  z-index: 0;
 }
 
 .pace {
+  z-index: 1000;
   -webkit-pointer-events: none;
   pointer-events: none;
-
   -webkit-user-select: none;
   -moz-user-select: none;
   user-select: none;
@@ -1307,6 +1308,21 @@ footer .social ul li:last-child {
 }
 
 .foot-link span{
-  font-size: 26;
+  font-size: 20;
   margin: 10px;
+}
+
+.footer-home {
+  height: 70px;
+  position: fixed;
+  bottom: 0px;
+  z-index: 10;
+}
+
+.footer-home .social {
+  right: auto;
+  left: auto;
+  width: 100%;
+  margin: -31px 0;
+  text-align: center;
 }

@@ -1,0 +1,43 @@
+<div class="push"></div>
+  <footer class="footer-home">
+    <aside class="wrap">
+      <div class="social">
+        <ul>
+            <li>
+              <span class="foot-link">
+                <a id="mail" href="mailto:{{ site.owner.email }}"><span class="icon-mail"></span></a> 
+                <a id="mail" href="https://github.com/{{site.owner.github}}"><span class="icon-github"></span></a> 
+                <a id="mail" href="https://twitter.com/{{site.owner.twitter}}"><span class="icon-twitter"></span></a>
+                <a id="mail" href="https://www.facebook.com/{{site.owner.facebook}}"><span class="icon-facebook"></span></a>
+              </span>
+            </li>
+        </ul>
+    </div>
+    </aside>
+    <small>&copy; {{ site.time | date: '%Y' }} <a href="/">{{ site.owner.name }}</a>. Powered by <a href="http://jekyllrb.com">Jekyll</a> using the <a href="http://jekyll.gtat.me/about">Balzac</a> theme.</small>
+  </footer>
+
+  <!-- If they're out, get some from the cellar -->
+  <script>window.jQuery || document.write('<script src="{{ site.url }}/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+  <script src="{{ site.url }}/assets/js/retina.min.js"></script>
+
+  <!-- Custom JS -->
+  <script src="{{ site.url }}/assets/js/scripts.js"></script>
+  {% if page.category == 'articles' %}
+    <!-- <script src="{{ site.url }}/assets/js/reading-time.js"></script> -->
+    <script>
+      var wordsPerMinute = 180;
+      var numberOfWords = {{ content | number_of_words }};
+      var timeInMinutes = numberOfWords / wordsPerMinute;
+      timeInMinutes = Math.ceil(timeInMinutes);
+
+      if(timeInMinutes == 1)
+          document.getElementsByClassName('read-time')[0].innerHTML = '1 min. read';
+      else
+          document.getElementsByClassName('read-time')[0].innerHTML = timeInMinutes + ' min. read';
+    </script>
+  {% endif %}
+
+
+  </body>
+</html>

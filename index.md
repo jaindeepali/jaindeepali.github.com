@@ -1,7 +1,7 @@
 ---
 layout: home
-title: "Recent Posts"
-tags: [Jekyll, theme, responsive, blog, template]
+title: "Deepali Jain"
+tags: [blog, programming, machine learning, data science, iit roorkee, sdslabs]
 image:
-  feature: typewriter.jpg
+  feature: cover.jpg
 ---
