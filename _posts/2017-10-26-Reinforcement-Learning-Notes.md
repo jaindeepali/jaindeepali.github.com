@@ -1,7 +1,7 @@
 ---
 layout: post-no-feature
 title: "Notes on Reinforcement Learning: Overview and MDP"
-comments: false
+comments: true
 category: articles
 tags: [Reinforcement Learning, Lecture Notes]
 description: ""
@@ -19,7 +19,7 @@ RL is a sub-field of artificial intelligence that deals with making agents learn
 
 Charles and Michael take the example of a grid world to explain MDPs. That example is very similar to the frozen lake environment in [OpenAI Gym](https://gym.openai.com/envs/FrozenLake-v0/). Let us play with this environment to get the hang of this concept. Install gym from [here](https://github.com/openai/gym) and get started.
 
-{% gist jaindeepali/f3f38f9c5cedc5364779022baa4768a9 %}
+{% gist jaindeepali/d08505b9ab35661b47e324dc391cde4a %}
 <!-- {% include jupyter_notebooks/gym_demo.md %} -->
 
 You can explore this simple MDP and observe the stochastic transition between states when the agent takes various actions. Now that you understand the problem set up, we can start thinking about how to solve it.
