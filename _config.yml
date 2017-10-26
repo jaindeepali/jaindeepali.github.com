@@ -45,7 +45,10 @@ timezone:    Asia/Calcutta
 future:      true
 markdown:    kramdown
 highlighter: rouge
-
+kramdown:
+  input: GFM
+  hard_wrap: false
+  
 # kramdown:
 #   auto_ids: true
 #   footnote_nr: 1
@@ -63,7 +66,7 @@ highlighter: rouge
 plugins:
   - jekyll-feed
   - jekyll-gist
-  
+
 # https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink:   /:categories/:title
 
