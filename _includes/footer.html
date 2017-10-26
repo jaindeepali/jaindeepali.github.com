@@ -47,7 +47,18 @@
           document.getElementsByClassName('read-time')[0].innerHTML = timeInMinutes + ' min. read';
     </script>
   {% endif %}
-
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      CommonHTML: {
+        scale: 180
+      },
+      tex2jax: {
+          inlineMath: [['$','$'], ['\\(','\\)']],
+          processEscapes: true
+        }
+    });
+  </script>
+  <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
 
   </body>
 </html>

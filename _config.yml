@@ -60,9 +60,10 @@ highlighter: rouge
 #     coderay_bold_every: 10
 #     coderay_css: class
 
-gems:
+plugins:
   - jekyll-feed
-
+  - jekyll-gist
+  
 # https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink:   /:categories/:title
 
