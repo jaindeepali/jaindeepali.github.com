@@ -1,7 +1,7 @@
 ---
 layout: post-no-feature
 title: "Running Theano on GPU with CUDA Toolkit"
-comments: false
+comments: true
 category: articles
 tags: [Machine Learning, Theano, GPU]
 description: ""
