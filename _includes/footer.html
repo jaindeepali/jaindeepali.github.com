@@ -49,13 +49,15 @@
   {% endif %}
   <script type="text/x-mathjax-config">
     MathJax.Hub.Config({
-      CommonHTML: {
-        scale: 180
-      },
       tex2jax: {
           inlineMath: [['$','$'], ['\\(','\\)']],
           processEscapes: true
         }
+    });
+    MathJax.Hub.Register.StartupHook("TeX Jax Ready",function () {
+      MathJax.InputJax.TeX.prefilterHooks.Add(function (data) {
+        if (data.display) {data.math = "\\Large{"+data.math+"}"}
+      });
     });
   </script>
   <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
