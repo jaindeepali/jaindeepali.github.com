@@ -332,6 +332,16 @@ code {
   font-family: "Monaco", "Courier New", "Courier";
   font-size: .9em;
 }
+
+.authors {
+  color: #808080;
+  font-size: 16pt;
+}
+
+.conf {
+  color: maroon;
+}
+
 .highlight code .lineno {
 
   -webkit-user-select: none; /* Chrome/Safari */        
@@ -573,11 +583,13 @@ input {
 
 /* Header */
 header.site-header {
-  padding: 20px 0;
-  position: absolute;
+  padding: 20px 0 0 0;
+  position: fixed;
   width: 100%;
   z-index: 500;
+  background: white;
 }
+
 header.site-header .wrap {
   max-width: 90vw;
 }
@@ -1318,7 +1330,7 @@ footer .social ul li:last-child {
 
 .footer-home {
   height: 70px;
-  position: fixed;
+  /*position: fixed;*/
   bottom: 0px;
   z-index: 10;
 }

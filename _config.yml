@@ -1,8 +1,8 @@
 title:            Deepali Jain
-tagline:          Attempting to make sense of the universe.
-description:      My Blog.
-#Comment out url when working locally to resolve base urls correctly
-#url: jaindeepali.github.io
+tagline:          Attempting to figuring out the universe.
+description:      Research Fellow, BEL, Adobe Research
+# Comment out url when working locally to resolve base urls correctly
+# url: jaindeepali.github.io
 
 # Owner/author information
 owner:
@@ -15,7 +15,7 @@ owner:
   disqus:         jaindeepali-blog
   facebook:       deepalijain8
   google-plus:    +DeepaliJain811
-  location:       "Roorkee, India"
+  location:       "Bangalore, India"
   # Plug in your disqus shortname!
 
 tools:
@@ -26,19 +26,21 @@ tools:
 # For external links add external: true
 links:
   - title: About
-    url: http://about.me/deepali
+    url: https://research.adobe.com/person/deepali-jain/
     external: true
-  - title: Projects
+  - title: Publications
+    url: /publications
+  - title: Github
     url: https://github.com/jaindeepali
     external: true
-  - title: Resume
-    url: /assets/resume/Deepali-Jain-Resume.pdf
+  - title: CV
+    url: /assets/resume/Deepali_Jain_CV.pdf
     external: true
-  - title: Contact
+  - title: Mail
     url: mailto:jaindeepali811@gmail.com
     external: true
-  - title: RSS
-    url: /feed.xml
+  # - title: RSS
+  #   url: /feed.xml
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    Asia/Calcutta
