@@ -320,6 +320,24 @@ code {
   overflow-y: hidden;
 }
 
+.paper_link a {
+  color: #266180;
+}
+
+.paper_link {
+  /* font-family: helvetica; */
+  font-size: 0.8em;
+  /* font-weight: bold; */
+  margin: 0.25em 0.25em;
+  padding: 0.1em 0.25em;
+  /* background-color: #f9f9f9; */
+  line-height: 1.5em;
+  overflow: scroll;
+  /* display: block; */
+  overflow-y: hidden;
+  border: 1px solid rgba(0, 0, 0, 0.28);
+}
+
 .highlight {
   background: #222;
   padding: 12px;
@@ -339,7 +357,30 @@ code {
 }
 
 .conf {
-  color: maroon;
+  color: #712020;
+  font-size: 0.9em;
+}
+
+post img.paper_img {
+  width: 80%;
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.abstract {
+  font-size: 1.1em;
+  margin-top: -1.8em;
+  line-height: 1.2em;
 }
 
 .highlight code .lineno {
@@ -570,6 +611,22 @@ input {
   zoom: 1;
 }
 
+article.wide {
+  max-width: none !important;
+  width: 70%;
+}
+
+.wide_post {
+  display: inline;
+  float: left;
+  width: 70%;
+  margin: 0 1.5%;
+  display: block;
+  margin: 0 auto;
+  float: none;
+}
+
+
 .post {
   display: inline;
   float: left;
@@ -587,6 +644,9 @@ header.site-header {
   position: fixed;
   width: 100%;
   z-index: 500;
+  }
+
+header.light {
   background: white;
 }
 
@@ -987,6 +1047,34 @@ header.site-header nav ul li a:hover {
   transition: all 0.2s ease;
 }
 
+.wide_post .share {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  width: 76px;
+  font-size: 16px;
+  font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", "Arial", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding: 4px 6px 4px 6px;
+  color: #d9d9d9;
+  border: 2px solid rgba(217, 217, 217, 0.7);
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+}
+.wide_post .share:hover {
+  color: #8ab9d1;
+  border-color: rgba(138, 185, 209, 0.7);
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  -webkit-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+
 /* Footer Stuff */
 .push {
   height: 80px !important;
@@ -1330,7 +1418,7 @@ footer .social ul li:last-child {
 
 .footer-home {
   height: 70px;
-  /*position: fixed;*/
+  position: fixed;
   bottom: 0px;
   z-index: 10;
 }

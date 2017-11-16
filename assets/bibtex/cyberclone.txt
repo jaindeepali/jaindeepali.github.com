@@ -1,0 +1,7 @@
+@inproceedings{krishna2015activity,
+  title={An LSTM Based System for Prediction of Human Activities with Durations},
+  author={Krishna, Kundan and Jain, Deepali and Mehta, Sanket and Choudhary, Sunav},
+  booktitle={Proceedings of the 2017 ACM International Joint Conference on Pervasive and Ubiquitous Computing},
+  year={2017},
+  organization={ACM}
+}

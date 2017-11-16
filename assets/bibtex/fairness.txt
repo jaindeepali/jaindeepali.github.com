@@ -1,0 +1,8 @@
+@inproceedings{modani2017fairness,
+  title={Fairness Aware Recommendations on Behance},
+  author={Modani, Natwar and Jain, Deepali and Soni, Ujjawal and Gupta, Gaurav Kumar and Agarwal, Palak},
+  booktitle={Pacific-Asia Conference on Knowledge Discovery and Data Mining},
+  pages={144--155},
+  year={2017},
+  organization={Springer}
+}
