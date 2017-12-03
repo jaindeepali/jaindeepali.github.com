@@ -12,7 +12,7 @@ tags: [publications]
 <div class="column" markdown="1">
 
 **An LSTM Based System for Prediction of Human Activities with Durations**  
-<span class="authors">Kundan Krishna\*, <u>Deepali Jain\*</u>, Sanket Mehta, Sunav Chaudhary</span>  
+<span class="authors">Kundan Krishna\*, <u>Deepali Jain*</u>, Sanket Mehta, Sunav Chaudhary</span>  
 <span class="conf">UbiComp 2018</span>  <span class="paper_link">[PDF](/assets/papers/cyberclone.pdf){:target="_blank"}</span> <span class="paper_link">[bibtex](/assets/bibtex/cyberclone.txt){:target="_blank"}</span>
 
 <p class="abstract">
