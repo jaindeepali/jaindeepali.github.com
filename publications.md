@@ -41,6 +41,10 @@ Human activity prediction is an interesting problem with a wide variety of appli
 <h3 align="center"> Patents </h3>
 <div markdown="1" style="text-align:center">
 
+**Predictive Analysis of User Behavior utilizing RNN-based User Embedding**  
+<span class="authors">Sungchul Kim, Charles Chen, Hung Bui, Eunyee Koh, Branislav Kveton, Deepali Jain, Atanu Sinha, Deepali Gupta, Nikhil Sheoran</span>  
+<span class="conf">US Patent  Application 15/814,979. Filed on 17 november 2017</span>
+
 **Creator Aware and Diverse Recommendations of Digital Content**  
 <span class="authors">Natwar Modani, Deepali Jain, Ujjawal Soni, Gaurav Kumar Gupta, and Palak Agarwal</span>  
 <span class="conf">US Patent  Application 15/598,193. Filed on 16 June 2017</span>
