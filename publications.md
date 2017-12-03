@@ -12,7 +12,7 @@ tags: [publications]
 <div class="column" markdown="1">
 
 **An LSTM Based System for Prediction of Human Activities with Durations**  
-<span class="authors">Kundan Krishna\*, Deepali Jain\*, Sanket Mehta, Sunav Chaudhary</span>  
+<span class="authors">Kundan Krishna\*, <b>Deepali Jain</b>\*, Sanket Mehta, Sunav Chaudhary</span>  
 <span class="conf">UbiComp 2018</span>  <span class="paper_link">[PDF](/assets/papers/cyberclone.pdf){:target="_blank"}</span> <span class="paper_link">[bibtex](/assets/bibtex/cyberclone.txt){:target="_blank"}</span>
 
 <p class="abstract">
@@ -30,7 +30,7 @@ Human activity prediction is an interesting problem with a wide variety of appli
 <div class="column" markdown="1">
 
 **Fairness Aware Recommendations on Behance**  
-<span class="authors">Natwar Modani, Deepali Jain, Ujjawal Soni, Gaurav Kumar Gupta, and Palak Agarwal</span>  
+<span class="authors">Natwar Modani, <b>Deepali Jain</b>, Ujjawal Soni, Gaurav Kumar Gupta, and Palak Agarwal</span>  
 <span class="conf">PAKDD 2017</span> <span class="paper_link">[PDF](/assets/papers/fairness.pdf){:target="_blank"}</span> <span class="paper_link">[bibtex](/assets/bibtex/fairness.txt){:target="_blank"}</span>
 
 <p class="abstract">In two-sided platforms, the users can have two personas, consumers who would like relevant and diverse recommendations, and creators who would like to receive exposure for their creations. We propose a re-ranking strategy that can be applied to the scored recommendation lists to improve exposure distribution across the creators (thereby improving the fairness). We also propose a different notion of diversity, which we call representative diversity, as opposed to dissimilarity based diversity, that captures level of interest of the consumer in different categories. We show that our method results in recommendations that have much higher level of fairness and representative diversity compared to the state-of-art recommendation strategies, without compromising the relevance score too much.</p>
@@ -42,15 +42,15 @@ Human activity prediction is an interesting problem with a wide variety of appli
 <div markdown="1" style="text-align:center">
 
 **Predictive Analysis of User Behavior utilizing RNN-based User Embedding**  
-<span class="authors">Sungchul Kim, Charles Chen, Hung Bui, Eunyee Koh, Branislav Kveton, Deepali Jain, Atanu Sinha, Deepali Gupta, Nikhil Sheoran</span>  
+<span class="authors">Sungchul Kim, Charles Chen, Hung Bui, Eunyee Koh, Branislav Kveton, <b>Deepali Jain</b>, Atanu Sinha, Deepali Gupta, Nikhil Sheoran</span>  
 <span class="conf">US Patent  Application 15/814,979. Filed on 17 november 2017</span>
 
 **Creator Aware and Diverse Recommendations of Digital Content**  
-<span class="authors">Natwar Modani, Deepali Jain, Ujjawal Soni, Gaurav Kumar Gupta, and Palak Agarwal</span>  
+<span class="authors">Natwar Modani, <b>Deepali Jain</b>, Ujjawal Soni, Gaurav Kumar Gupta, and Palak Agarwal</span>  
 <span class="conf">US Patent  Application 15/598,193. Filed on 16 June 2017</span>
 
 **Personalized Creator Recommendations**  
-<span class="authors">Natwar Modani, Deepali Jain, Ujjawal Soni, Gaurav Kumar Gupta, and Palak Agarwal</span>  
+<span class="authors">Natwar Modani, <b>Deepali Jain</b>, Ujjawal Soni, Gaurav Kumar Gupta, and Palak Agarwal</span>  
 <span class="conf">US Patent  Application 15/625,237. Filed on 17 May 2017</span>
 
 </div>
