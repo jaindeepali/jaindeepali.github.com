@@ -14,7 +14,7 @@ The course does an awesome job of teaching this involved material in a very enga
 <!-- In this series of posts I will document my learnings from the course, the corresponding literature research and some experimentation. This is an exercise for me to revisit the content and explore some interesting research problems in more depth and to keep everything I have learned in one place. -->
 
 ### Reinforcement Learning Overview
-RL is a sub-field of artificial intelligence that deals with making agents learn to make decisions in new environments. The agents should learn by interacting with the environment and observing occasional reward (or reinforcement) signals rather than from direct supervision. <!-- Since you are here, I am sure you know how RL is awesome and has been used to solve all kinds of exciting problems. Okay, enough talk! Let's get to the real stuff. -->
+RL is a sub-field of Machine Learning that deals with making agents learn to make sequential decisions in unknown environments. The agents should learn by interacting with the environment and observing occasional reward (or reinforcement) signals rather than from direct supervision. <!-- Since you are here, I am sure you know how RL is awesome and has been used to solve all kinds of exciting problems. Okay, enough talk! Let's get to the real stuff. -->
 
 ### Markov Decision Process
 
