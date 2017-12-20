@@ -38,7 +38,7 @@ Human activity prediction is an interesting problem with a wide variety of appli
 </div>
 </div>
 
-<h3 align="center"> Patents </h3>
+<h3 align="center"> Patent Applications </h3>
 <div markdown="1" style="text-align:center">
 
 **Predictive Analysis of User Behavior utilizing RNN-based User Embedding**  
