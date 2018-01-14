@@ -1281,7 +1281,7 @@ footer .social ul li:last-child {
 
   header.site-header {
     min-height: 59px;
-    margin-top: 20px;
+    /*margin-top: 20px;*/
     padding-top: 0;
   }
 
@@ -1305,6 +1305,7 @@ footer .social ul li:last-child {
     width: 16px;
     height: 16px;
     color: white;
+    margin-top: 20px;
   }
   header.site-header a.menu .icons {
     font-size: 32px;
@@ -1360,7 +1361,7 @@ footer .social ul li:last-child {
 
   #bump .darken nav ul {
     padding: 0;
-    margin-top: 40px;
+    margin-top: 78px;
     background: #3b3b3b;
   }
 
