@@ -5,6 +5,15 @@ tags: [publications]
 ---
 <h3 align="center"> Publications </h3>
 
+<!-- <main>
+	<section markdown="1">
+		**Measurement of Users' Experience on Online Platforms from their Behavior Logs**  
+		<span class="authors"><u>Deepali Jain</u>, Atanu R. Sinha, Deepali Gupta, Nikhil Sheoran, Sopan Khosla</span>  
+		<span class="conf">PAKDD 2018</span> 
+	</section>
+	<section></section>
+</main> -->
+
 <main>
 <section markdown="1">
 
