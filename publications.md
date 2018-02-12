@@ -5,17 +5,24 @@ tags: [publications]
 ---
 <h3 align="center"> Publications </h3>
 
-<!-- <main>
-	<section markdown="1">
-		**Measurement of Users' Experience on Online Platforms from their Behavior Logs**  
-		<span class="authors"><u>Deepali Jain</u>, Atanu R. Sinha, Deepali Gupta, Nikhil Sheoran, Sopan Khosla</span>  
-		<span class="conf">PAKDD 2018</span> 
-	</section>
-	<section></section>
-</main> -->
+<main style="column-count:1">
+<div class='pub-section' markdown="1">
+
+**Measurement of Users' Experience on Online Platforms from their Behavior Logs**  
+<span class="authors"><u>Deepali Jain</u>, Atanu R. Sinha, Deepali Gupta, Nikhil Sheoran, Sopan Khosla</span>  
+<span class="conf">PAKDD 2018</span> 
+
+</div>
+
+<!-- <div class='pub-section'>
+<span style="color:white;">Placeholder</span>
+</div> -->
+
+</main>
 
 <main>
-<section markdown="1">
+
+<div class='pub-section' markdown="1">
 
 **An LSTM Based System for Prediction of Human Activities with Durations**  
 <span class="authors">Kundan Krishna\*, <u>Deepali Jain*</u>, Sanket Mehta, Sunav Chaudhary</span>  
@@ -25,17 +32,17 @@ tags: [publications]
 Human activity prediction is an interesting problem with a wide variety of applications like intelligent virtual assistants, contextual marketing, etc. One formulation of this problem is jointly predicting human activities (viz. eating, commuting, etc.) with associated durations. Herein a deep learning system is proposed for this problem. Given a sequence of past activities and durations, the system estimates the probabilities for future activities and their durations. Two distinct LSTM networks are developed that cater to different assumptions about the data and achieve different modeling complexities and prediction accuracies. The networks are trained and tested with two real-world datasets, one being publicly available while the other collected from a field experiment. Modeling on the segment level public dataset mitigates the cold-start problem. Experiments indicate that compared to traditional approaches based on sequence mining or hidden Markov modeling, LSTM networks perform significantly better. The ability of LSTM networks to detect long term correlations in activity data is also demonstrated.
 </p>
 
-</section>
+</div>
 
-<section>
-<img src="/images/gen_days.png" alt="Day generation results" class="paper_img" style="width:98%;">
-</section>
+<div class='pub-section'>
+<img src="/images/gen_days.png" alt="Day generation results" class="paper_img" style="width:95%;">
+</div>
 
 </main>
 
 <main>
 
-<section markdown="1">
+<div class='pub-section' markdown="1">
 
 **Fairness Aware Recommendations on Behance**  
 <span class="authors">Natwar Modani, <u>Deepali Jain</u>, Ujjawal Soni, Gaurav Kumar Gupta, and Palak Agarwal</span>  
@@ -43,12 +50,12 @@ Human activity prediction is an interesting problem with a wide variety of appli
 
 <p class="abstract">In two-sided platforms, the users can have two personas, consumers who would like relevant and diverse recommendations, and creators who would like to receive exposure for their creations. We propose a re-ranking strategy that can be applied to the scored recommendation lists to improve exposure distribution across the creators (thereby improving the fairness). We also propose a different notion of diversity, which we call representative diversity, as opposed to dissimilarity based diversity, that captures level of interest of the consumer in different categories. We show that our method results in recommendations that have much higher level of fairness and representative diversity compared to the state-of-art recommendation strategies, without compromising the relevance score too much.</p>
 
-</section>
+</div>
 
-<section>
-<img src="/images/fairness_result.png" alt="Fairness Results" class="paper_img" style="width:98%;">
-<img src="/images/diversity_result.png" alt="Diversity Results" class="paper_img" style="width:98%;">
-</section>
+<div class='pub-section'>
+<img src="/images/fairness_result.png" alt="Fairness Results" class="paper_img" style="width:95%;">
+<img src="/images/diversity_result.png" alt="Diversity Results" class="paper_img" style="width:95%;">
+</div>
 
 </main>
 

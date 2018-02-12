@@ -2,7 +2,7 @@
    Imports
    ========================================================================== */
 
-@media (min-width: 620px) {
+/*@media (min-width: 620px) {
   main {
     column-count: 1;
     column-gap: 20px;
@@ -11,14 +11,21 @@
   section {
     break-inside: avoid;
   }
-}
+}*/
 
-@media (min-width: 960px) {
-  main {
-     column-count: 2;
-  }
-}
 
+main {
+  column-count: 2;
+  column-width: 300px;
+  column-rule: 1px dotted #ddd;
+  column-fill: balance;
+  overflow: hidden;
+}
+.pub-section {
+/*  display: table-cell;*/
+  break-inside: avoid;
+  padding-bottom: 10px; 
+}
 
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code, del, dfn, img, ins, kbd, q, s, samp,
@@ -1275,8 +1282,24 @@ footer .social ul li:last-child {
   footer .prev-posts li {
     margin-top: 16.5px;
   }
+  main {
+    column-count: 1;
+    column-gap: 20px;
+  }
+  
+  section {
+    break-inside: avoid;
+  }
 }
 @media only screen and (max-width: 680px) {
+  main {
+    column-count: 1;
+    column-gap: 20px;
+  }
+  
+  section {
+    break-inside: avoid;
+  }
   /* All Posts */
   section.article img.loading {
     top: 10px !important;
