@@ -1,6 +1,6 @@
 title:            Deepali Jain
 tagline:          Attempting to figuring out the universe.
-description:      Research Fellow, BEL, Adobe Research
+description:      AI Resident, Google AI, New York
 # Comment out url when working locally to resolve base urls correctly
 # url: jaindeepali.github.io
 
@@ -15,7 +15,7 @@ owner:
   disqus:         jaindeepali-blog
   facebook:       deepalijain8
   google-plus:    +DeepaliJain811
-  location:       "Bangalore, India"
+  location:       "New York, USA"
   # Plug in your disqus shortname!
 
 tools:
@@ -26,7 +26,7 @@ tools:
 # For external links add external: true
 links:
   - title: About
-    url: https://research.adobe.com/person/deepali-jain/
+    url: /publications
     external: true
   - title: Publications
     url: /publications
@@ -46,7 +46,7 @@ links:
   #   url: /feed.xml
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    Asia/Calcutta
+timezone:    America/New_York
 future:      true
 markdown:    kramdown
 highlighter: rouge
