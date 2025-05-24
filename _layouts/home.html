@@ -1,5 +1,27 @@
-{% include head-dark.html %}
+{% include head.html %}
 
-{{ content }}
+<section class="article">
+
+  <div class="overlay"></div>
+  <div class="featured-image" style="background-image: url(/images/{{ page.image.feature }})"></div>
+
+  <article class="wrap post">
+    {% if page.title %}
+    <header class="post-header">
+      <hgroup>
+        <h1>{{ page.title }}</h1>
+        {% if page.description %}
+        <p class="page_intro">{{ page.description }}</p>
+        {% elsif site.tagline %}
+        <p class="page_intro">{{ site.tagline }}</p>
+        {% endif %}
+      </hgroup>
+    </header>
+    {% endif %}
+
+    {{ content }} {# This will render the bio from index.md #}
+
+  </article>
+</section>
 
 {% include footer-home.html %}
