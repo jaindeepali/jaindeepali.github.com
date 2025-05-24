@@ -1,0 +1,43 @@
+name: Deploy Preview
+
+on:
+  push:
+    branches-ignore:
+      - master # Or your main publishing branch
+      - main   # Adding 'main' as well for common practice
+      - gh-pages # Don't run on the branch previews are deployed to
+  pull_request:
+    types: [opened, synchronize, reopened] # Trigger on PR events
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: preview-pages-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build_and_preview:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Ruby and Bundler
+        uses: ruby/setup-ruby@v1 # Using the official ruby/setup-ruby action
+        with:
+          ruby-version: '2.7' # Specify a Ruby version compatible with the site's Gemfile
+          bundler-cache: true # Automatically runs bundle install and caches gems
+
+      - name: Build Jekyll site
+        run: bundle exec jekyll build --destination _site
+        env:
+          JEKYLL_ENV: production # Ensure production build
+
+      - name: Deploy Preview using rajyan/preview-pages
+        uses: rajyan/preview-pages@v1
+        with:
+          source-dir: _site
+          # token: ${{ secrets.GITHUB_TOKEN }} # This is the default, so not strictly needed to specify
+          # pr-comment: each # This is the default, comments on each PR commit
