@@ -30,6 +30,8 @@ links:
     external: true
   - title: Publications
     url: /publications
+  - title: Blog
+    url: /blog/
   - title: Github
     url: https://github.com/jaindeepali
     external: true
